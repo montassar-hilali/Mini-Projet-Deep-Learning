@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['ambulance', 'army vehicle', 'auto rickshaw', 'bicycle', 'bus', 'car', 'garbagevan', 'human hauler', 'minibus', 'minivan', 'motorbike', 'pickup', 'policecar', 'rickshaw', 'scooter', 'suv', 'taxi', 'three wheelers -CNG-', 'truck', 'van', 'wheelbarrow']
+
+roboflow:
+  workspace: bs-masterpiece
+  project: road-vehicles-eiyzl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bs-masterpiece/road-vehicles-eiyzl/dataset/1
