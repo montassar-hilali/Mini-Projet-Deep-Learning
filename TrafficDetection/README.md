@@ -15,7 +15,9 @@ This project performs real-time **traffic object detection** using an **ensemble
 
 ## 📁 Project Structure
 
-
+- `Data/` : datasets
+- `models/` : trained models
+- `notebooks/` : Jupyter notebooks for training and evaluation
 ---
 
 ## ⚙️ Ensemble Logic
